@@ -5,7 +5,7 @@ def gen_est_id():
 
     # gender and century
     id += rand_int(1,8)
-    # birth date
+    # birth date (future dates included)
     id += rand_birth_date()
     # nth baby that day
     id += rand_int(0,999)

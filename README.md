@@ -1,3 +1,5 @@
 EST-ID-generator
 ================
-Summary: Python program that creates and outputs a valid Estonian identification number
+Python program that creates and outputs a valid Estonian identification number
+
+Algorithm from: http://et.wikipedia.org/wiki/Isikukood
