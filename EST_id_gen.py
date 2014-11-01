@@ -111,7 +111,6 @@ def modulo_11(number, weights):
     :param weights: list of integers
     :return: integer
     """
-    # Modulo 11 method with weights 
     sum = 0
 
     for i in range(len(number)):
