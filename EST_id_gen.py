@@ -58,9 +58,11 @@ def get_century_digit(date):
         return ['3', '4']
     elif 2000 <= year <= 2099:
         return ['5', '6']
-    else:
+    """
+    # For the future
+    elif 2100 <= year <= 2199:
         return ['7', '8']
-
+    """
 
 def format_date(date):
     """
