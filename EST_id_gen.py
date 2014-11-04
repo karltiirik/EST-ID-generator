@@ -24,7 +24,7 @@ def gen_est_id():
     id += format_date(b_date)
 
     # nth baby that day
-    id += rand_int(0, 999)
+    id += rand_int(1, 999)
 
     # calculate checksum
     id += calc_checksum(id)
@@ -70,7 +70,7 @@ def format_date(date):
     :param date: datetime.date format
     :return: formatted date string 'YYMMDD'
     """
-    f_date = str(date.year)[2:] + str(date.month).zfill(2) + str(date.day).zfill(2)
+    f_date = date.strftime('%Y%m%d')[2:]
     return f_date
 
 
